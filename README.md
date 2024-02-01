@@ -1,9 +1,21 @@
 # ReMOT
+<<<<<<< HEAD
 Rethinking Two-Stage Data Association for Multiple Object Tracking in Crowd Scenes
 
 Ruonan Wei, Yuehuan Wang, and Jinpu Zhang
 
 This code is based on the implementation of [ByteTrack](https://github.com/ifzhang/ByteTrack), [BoT-SORT](https://github.com/NirAharon/BoT-SORT)
+=======
+
+> **Rethinking Two-Stage Data Association for Multiple Object Tracking in Crowd Scenes**
+> 
+> Ruonan Wei, Yuehuan Wang, and Jinpu Zhang
+
+This code is based on the implementation of [ByteTrack](https://github.com/ifzhang/ByteTrack), [BoT-SORT](https://github.com/NirAharon/BoT-SORT),
+
+
+
+>>>>>>> master
 ## Installation
  
 ### Setup with Anaconda
@@ -88,3 +100,16 @@ A large part of the codes, ideas and results are borrowed from
 [YOLOv7](https://github.com/wongkinyiu/yolov7). 
 Thanks for their excellent work!
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+>>>>>>> master
