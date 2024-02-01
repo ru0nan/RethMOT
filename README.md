@@ -90,17 +90,3 @@ A large part of the codes, ideas and results are borrowed from
 [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) and
 [YOLOv7](https://github.com/wongkinyiu/yolov7). 
 Thanks for their excellent work!
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
-
->>>>>>> master
