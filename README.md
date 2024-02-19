@@ -1,4 +1,4 @@
-# ReMOT
+# RethMOT
 
 > **Rethinking Two-Stage Data Association for Multiple Object Tracking in Crowd Scenes**
 > 
@@ -14,9 +14,9 @@ This code is based on the implementation of [ByteTrack](https://github.com/ifzha
 **Step 1.** Install torch and matched torchvision from [pytorch.org](https://pytorch.org/get-started/locally/).<br>
 The code was tested using torch 1.11.0+cu113 and torchvision==0.12.0 
 
-**Step 2.** Install ReMOT.
+**Step 2.** Install RethMOT.
 ```shell
-cd ReMOT
+cd RethMOT
 pip3 install -r requirements.txt
 python3 setup.py develop
 ```
@@ -58,7 +58,7 @@ Tuning the tracking parameters carefully could lead to higher performance.
 * **Test on MOT17**
 
 ```shell
-cd <ReMOT_dir>
+cd <RethMOT_dir>
 python3 tools/track.py <dataets_dir/MOT17> --default-parameters --with-reid --benchmark "MOT17" --eval "test" --fp16 --fuse
 python3 tools/interpolation.py --txt_path <path_to_track_result>
 ```
@@ -66,7 +66,7 @@ python3 tools/interpolation.py --txt_path <path_to_track_result>
 * **Test on MOT20**
 
 ```shell
-cd <ReMOT_dir>
+cd <RethMOT_dir>
 python3 tools/track.py <dataets_dir/MOT20> --default-parameters --with-reid --benchmark "MOT20" --eval "test" --fp16 --fuse
 python3 tools/interpolation.py --txt_path <path_to_track_result>
 ```
@@ -74,7 +74,7 @@ python3 tools/interpolation.py --txt_path <path_to_track_result>
 * **Evaluation on MOT17 validation set (the second half of the train set)**
 
 ```shell
-cd <ReMOT_dir>
+cd <RethMOT_dir>
 python3 tools/track.py <dataets_dir/MOT17> --default-parameters --benchmark "MOT17" --eval "val" --fp16 --fuse
 # or
 python3 tools/track.py <dataets_dir/MOT17> --default-parameters --with-reid --benchmark "MOT17" --eval "val" --fp16 --fuse
